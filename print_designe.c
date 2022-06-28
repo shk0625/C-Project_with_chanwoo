@@ -5,9 +5,7 @@ typedef struct cc {
 	char designe[50][50];
 }CC;
 
-void textcolor(int color_number) {
-	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color_number);
-}
+void textcolor(int color_number);
 
 void CursorView(char show) {
 	HANDLE hConsole;
@@ -68,6 +66,10 @@ void print_class() {
 			printf("%s", class.designe[i]);
 		}
 	}
+}
+
+void textcolor(int color_number) {
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color_number);
 }
 
 void print_anime() {
