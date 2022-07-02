@@ -4,19 +4,19 @@
 int choose_act() {
 	int choose;
 	gotoxy(46, 7);
-	printf("¦£¦¡¦¡¦¡¦¡¦¡¦¡¦¡-¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¤");
+	printf("â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”");
 	gotoxy(48, 11);
-	printf("1. ´Ü¾î¸®½ºÆ®");
+	printf("1. ë‹¨ì–´ë¦¬ìŠ¤íŠ¸");
 	gotoxy(48, 13);
-	printf("2. ´Ü¾î ¶æ ¾²±â");
+	printf("2. ë‹¨ì–´ ëœ» ì“°ê¸°");
 	gotoxy(48, 15);
-	printf("3. ¶æ º¸°í ¿µ´Ü¾î ¾²±â");
+	printf("3. ëœ» ë³´ê³  ì˜ë‹¨ì–´ ì“°ê¸°");
 	gotoxy(48, 17);
-	printf("4. ¸®ÄÝÇÐ½À(¶æ)");
+	printf("4. ë¦¬ì½œí•™ìŠµ(ëœ»)");
 	gotoxy(48, 19);
-	printf("5. ¸®ÄÝÇÐ½À(´Ü¾î)");
+	printf("5. ë¦¬ì½œí•™ìŠµ(ë‹¨ì–´)");
 	gotoxy(46, 23);
-	printf("¦¦¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡-¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¥");
+	printf("â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜");
 	choose = _getch() - '0';
 	return choose;
 }
