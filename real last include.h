@@ -1,5 +1,3 @@
-# C-Project_with_chanwoo
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
